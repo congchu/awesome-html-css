@@ -3,33 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>Document</title>
     <link rel='stylesheet' href='./style.css'>
 </head>
 
 <body>
     <nav>
-        <!-- pure HTML/CSS/JS -->
-        <div class="navItem">Home</div>
 
-        <!-- 리액트/뷰같은 프레임워크 스타일 -->
+        <div class="navItem">Home</div>
         <div class="navItem">Project</div>
         <div class="navItem">Recommend</div>
         <div class="navItem">Home</div>
     </nav>
 
     <header>
-        <div class="badge">👋 안녕하세요!</div>
-        <h1>신입 백엔드 개발자.<br />
-            <em>Problem Solver.</em><br />
-            OOO입니다.<br />
-        </h1>
-        <div class="headerLinkContainer">
-            <a class="headerLink" href="https://www.google.com" target="_blank">Github Link</a>
-            <a class="headerLink" href="#" target="_blank">Resume Link</a>
+        <!-- 컨텐츠 부분 -->
+        <div className="headerTextContainer">
+            <div class="badge">👋 안녕하세요!</div>
+            <h1>신입 백엔드 개발자.<br />
+                <em>Problem Solver.</em><br />
+                OOO입니다.<br />
+            </h1>
+            <div class="headerLinkContainer">
+                <a class="headerLink black" href="https://www.google.com" target="_blank">Github Link</a>
+                <a class="headerLink outline" href="#" target="_blank">Resume Link</a>
+            </div>
         </div>
-        <br /><br /><br /><br /><br /><br />
+        <!-- 프로필 이미지 -->
+        <div className="headerImageContainer">
+            <div class="profileImage"></div>
+        </div>
+
 
 
     </header>
