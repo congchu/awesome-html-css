@@ -34,7 +34,7 @@ header {
   padding: 0 20px;
   justify-content: space-between;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 100px auto;
   align-items: center;
 }
 .badge {
@@ -108,4 +108,50 @@ header h1 em {
   background-image: url("https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: 60%;
+}
+/* --- About Me---  */
+
+.aboutMeContainer {
+  background: linear-gradient(
+    96deg,
+    rgba(189, 210, 255, 0.4) 1.72%,
+    rgba(116, 224, 215, 0.4) 158.93%
+  );
+}
+.aboutMe {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+.aboutMe h2 {
+  color: #000;
+  font-size: 40px;
+  /* white-space: pre-line; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 50px */
+  letter-spacing: -0.8px;
+}
+
+.aboutMe p {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  white-space: pre-line;
+}
+
+.flyingPerson {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  /* top: 0px; */
+  bottom: 48px;
+  /* right: 0px; */
+  left: 165px;
+}
+
+.posRelative {
+  position: relative;
 }
