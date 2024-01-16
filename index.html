@@ -19,7 +19,7 @@
     <header>
         <!-- 컨텐츠 부분 -->
         <div className="headerTextContainer">
-            <div class="badge">👋 안녕하세요!</div>
+            <div class="badge">👋 안녕하세요<span class="typing">!</span></div>
             <h1>신입 백엔드 개발자.<br />
                 <em>Problem Solver.</em><br />
                 OOO입니다.<br />
@@ -34,8 +34,9 @@
             <div class="profileImage"></div>
         </div>
     </header>
-    <section class="aboutMeContainer">
 
+    <!--내 소개 섹션 -->
+    <section class="aboutMeContainer">
         <div class="aboutMe">
             <h2>끊임없이 배우고<br />
                 집요하게 해결하는
@@ -52,6 +53,36 @@
         </div>
     </section>
 
+    <!-- 기술 스택 섹션 -->
+    <section class="techStackContainer">
+        <h3>기술 스택</h3>
+        <p className="techStackDescription">
+            지금까지 활용해 본 기술들입니다.
+            넓고 깊은 기술 스택을 얻기 위해 노력하고 있습니다.
+        </p>
+        <div>
+            <ul class="teckLogos">
+                <li><img src="./assets/images/ic-bootstrap.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-css.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-icon.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-react.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-tailwind.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-git.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-vscode.svg" alt="bootstrap" /></li>
+
+                <li><img src="./assets/images/ic-html.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-icon.svg" alt="bootstrap" /></li>
+                <li><img src="./assets/images/ic-js.svg" alt="bootstrap" /></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="fixedContactButton">
+        <div>Contact Me</div>
+        <a href="https://naver.com">(사이트)</a>
+        <a href="tel:02-1234-1234">(핸드폰)</a>
+        <a href="mailto:cookie00421@gmail.com">(이메일)</a>
+    </div>
 
 
 </body>
