@@ -21,5 +21,4 @@ jobs:
           aws-region: ap-northeast-2 # AWS S3 버킷이 위치한 리전으로 변경
 
       - name: Upload to S3
-        run: |
-          aws s3 sync web s3://shinhan-my-portolio/
+        run: aws s3 sync web s3://shinhan-my-portolio/
